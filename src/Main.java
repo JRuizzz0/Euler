@@ -10,6 +10,9 @@ public class Main {
         System.out.println("3. Fibonacci ejercicio 1");
         System.out.println("4. Factorización número primo");
         System.out.println("5. Palíndromo");
+        System.out.println("6. Pitágoras");
+        System.out.println("7. Suma Primos");
+        System.out.println("8. Numeros diagonales");
 
         int ejercicio = sc.pedirNumero("Introduce el numero delo ejercicio: ");
 
@@ -36,6 +39,21 @@ public class Main {
                 Palindromo palindromo = new Palindromo();
                 palindromo.palindromo1();
                 break;
+
+            case 6:
+                Pitagoras pitagoras = new Pitagoras();
+                pitagoras.pitagoras();
+                break;
+            case 7:
+                SumaPrimos sumaPrimos = new SumaPrimos();
+                sumaPrimos.sumaPrimos();
+                break;
+
+            case 8:
+                NumerosDiagonales numerosDiagonales = new NumerosDiagonales();
+                numerosDiagonales.numerosDiagonales();
+                break;
+
         }
     }
 
