@@ -6,7 +6,7 @@ public class TheChase {
 
     public static void main(String[] args) {
 
-        long simulaciones = 1000000000000000L;
+        long simulaciones = 1000000;
         double suma = 0.0;
 
         for (int i = 1; i <= simulaciones; i++) {
